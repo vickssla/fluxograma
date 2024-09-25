@@ -1,0 +1,55 @@
+body{
+    background:rgb(10, 93, 187);
+    color: rgb(230, 169, 2);
+    font-size: 40px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin:0;
+    font-family: "New Amsterdam", system-ui;
+    }
+    .texto-container p {
+       
+        font-size: 50px;
+        border-radius: 20px;
+        padding: 10px;
+        color:rgb(255, 255, 255);
+        background:rgb(168, 134, 20);
+        display: flex;
+        position: absolute;
+        top: 0cqmin;
+        left: 35%;
+        font-family: "New Amsterdam", system-ui;
+        
+    }
+    button{
+        background-color: rgb(153, 43, 43);
+        color:white;
+        font-family: 'Courier New', Courier, monospace;
+        border-radius: 15%;
+        padding: 35px;
+        font-size: 20px;
+        font-family: "Bai Jamjuree", sans-serif;
+    }
+    .passo {
+        display:none;
+    }
+    .passo1{
+        display: none;
+    }
+    .passo.ativo {
+        display:block;
+        
+    }
+    .passo.ativo p{
+        background-color: rgb(18, 10, 92);
+        padding: 20px;
+        border-radius: 20px;
+    }
+    main{
+        
+        text-align: center;
+        max-width: 90%;
+    }
+    
